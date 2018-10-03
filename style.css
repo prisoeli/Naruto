@@ -1,0 +1,36 @@
+#logos{
+    display: block inline;
+    text-align: center;
+}
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+table,th, td{
+  border: 1px solid black;
+  
+}
+#gif{
+    
+    padding: 5px;
+    float: right;
+}
+a:hover{
+
+color:red;
+}
+#toBoruto:hover{
+    width: 20%;
+}
+#banner{
+    width: 100%;
+    height:25em;
+}
+ul{
+    border: 1px solid black;
+}
+ol.side{
+    list-style-position: inside;
+}
