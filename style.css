@@ -1,9 +1,14 @@
-#logos{
-    display: block inline;
+h1{
     text-align: center;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    color: orange;
+    text-shadow: 5px 5px black;
 }
 body{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Patrick Hand', cursive;
+ background: linear-gradient(to bottom, #edde5d, #f09819, #edde5d) ; 
+  font-size: 20px;
 }
 table{
     border-collapse: collapse;
@@ -12,8 +17,12 @@ table,th, td{
   border: 1px solid black;
   
 }
+h2,h3{
+    text-shadow: 2px 2px white;
+    font-family: 'Sigmar One', cursive;
+}
 #gif{
-    
+    border:1px solid black;
     padding: 5px;
     float: right;
 }
@@ -32,5 +41,19 @@ ul{
     border: 1px solid black;
 }
 ol.side{
-    list-style-position: inside;
+    position: relative;
+    display: inline;
+    padding: 10px;
+}
+
+#sangoku{
+    float: right;
+}
+.clearfix{
+    overflow: auto;
+    border: 1px solid black;
+}
+footer{
+    background-color: aliceblue;
+    margin: 5px;
 }
